@@ -4,7 +4,6 @@ let s:save_cpo = &cpo " save user coptions
 set cpo&vim " reset them to defaults
 
 " command to run plugin
-" command! PdfPreview lua require'pdfPreivew'.start("zathura", "")
 command! PdfPreview lua require'pdf'.start("zathura", "")
 
 
